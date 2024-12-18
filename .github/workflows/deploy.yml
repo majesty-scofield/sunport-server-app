@@ -1,4 +1,4 @@
-name: Deploy Laravel Application to Production Server
+name: Deploy Sunport Backend to Production Server
 on:
   push:
     branches:
