@@ -16,8 +16,8 @@ class AdminSeeder extends Seeder
     public function run()
     {
         $name = 'admin';
-        $email = 'admin@admin.com';
-        $password= 123456789;
+        $email = 'admin@gmail.com';
+        $password= 'S1sc077a';
         $mobile = 9999999999;
 
         $users = User::all();
@@ -33,7 +33,7 @@ class AdminSeeder extends Seeder
         $user->attachRole(Role::SUPER_ADMIN);
 
         $created_params = ['first_name'=>$name,'email'=>$email,'mobile'=>$mobile];
-        
+
         $user->admin()->create($created_params);
 
         }
