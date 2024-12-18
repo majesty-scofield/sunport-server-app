@@ -50,4 +50,4 @@ jobs:
           cd /home/destechg/sunport.destechghana.com
           php artisan migrate --force
           php artisan storage:link
-          php artisan optimize
+          php artisan optimize:clear
