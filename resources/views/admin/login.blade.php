@@ -27,7 +27,7 @@
 
     <!-- Fab Admin skins -->
     <link rel="stylesheet" href="{{ url('assets/css/skins/_all-skins.css') }}">
-@php 
+@php
     $app_for = config('app.app_for');
 @endphp
 
@@ -70,7 +70,7 @@
                         <div class="print-error-msg" style="position: absolute;right: 0;left: 0;">
                             <ul class="error-style"></ul>
                         </div>
-                        <img src="{{ fav_icon() ?? asset('images/favicon.png') }}" alt="">
+                        <img src="{{ fav_icon() ?? asset('images/favicon.png') }}" width="100" alt="">
                         <h3 class="text-center">@lang('view_pages.admin_panel')</h3>
                         <p class="login-box-msg"></p>
                         <!-- action="{{ url('api/spa/login') }}" method="post" -->
